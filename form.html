@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    body{
+        height: 100vh;
+        background-position: center;
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+    }
+
+    
+    h1 {
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        color: #ff0d86;
+        color: tomato;
+        font-size: 28px;
+        border-radius: 20px;
+    }
+    
+    p {
+        margin: 50px;
+        padding: 20px;
+        border: 5px solid tomato;
+    }
+
+    .a {
+        display: inline-block;
+        width: 210px;
+        padding: 20px;
+    }
+
+    .b {
+        font-weight: 700;
+        width: 200px;
+        margin: 20px;
+        padding-left: 6px;
+        border-color: transparent;
+        outline: transparent;
+        background-color: transparent;
+        border-bottom: 2px solid purple;
+    }
+
+    .c {
+        padding: 80px;
+    }
+
+    .btn {
+        margin-left: 40%;
+        padding: 8px;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        color: whitesmoke;
+        text-align: center;
+        background-color: black;
+        cursor: pointer;
+    }
+ 
+
+    .container {
+        margin-left: 29%;
+        padding: 20px;
+        background: linear-gradient(to left, #ccffff 43%, #66ffff 98%);
+        width: 40%;
+        height: auto;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 40px;
+        margin-bottom: 30px;
+    }
+</style>
+
+<body>
+    <section>
+        <h1>Registration for Events </h1>
+        <div class="container">
+            <form action="">
+                <table>
+                    <tr>
+                        <td class="a">
+                            <label class="a" for="">Enter Your Name</label><br>
+                            <label class="a" for="">Registration No.</label><br>
+                            <label class="a" for="">Branch</label><br>
+                            <label class="a" for="">Batch</label><br>
+                            <label class="a" for=""> Section</label><br>
+                            <label class="a" for=""> Event</label><br>
+                        </td>
+                        <td>
+                            <input class="b" type="text" autofocus ><br>
+                            <input class="b" type="text"><br>
+                            <select class="b" name="" id="">
+                                <option class="c" value=""> - Select -</option>
+                                <option class="c" value=""> CSE / IT</option>
+                                <option class="c" value=""> Civil</option>
+                                <option class="c" value=""> AI / DS</option>
+                                <option class="c" value=""> Electrical</option>
+                                <option class="c" value=""> Mechanical</option>
+                            </select><br>
+                            <select class="b" name="" id="">
+                                <option class="c" value=""> - Select -</option>
+                                <option class="c" value=""> 2018 - 2022</option>
+                                <option class="c" value=""> 2019 - 2023</option>
+                                <option class="c" value=""> 2020 - 2024</option>
+                                <option class="c" value=""> 2021 - 2025</option>
+                            </select><br>
+                            <select class="b" name="" id="">
+                                <option class="c" value=""> - Select -</option>
+                                <option class="c" value=""> A</option>
+                                <option class="c" value=""> B</option>
+                                <option class="c" value=""> C</option>
+                                <option class="c" value=""> D</option>
+                                <option class="c" value=""> E</option>
+                                <option class="c" value=""> F</option>
+                            </select><br>
+                            <select class="b" name="" id="">
+                                <option class="c" value=""> - Select -</option>
+                                <option class="c" value=""> DJ Night</option>
+                                <option class="c" value=""> Blood Donation</option>
+                                <option class="c" value=""> Workshop on AWS</option>
+                                <option class="c" value=""> Chess Competition</option>
+                                <option class="c" value=""> Coding Competition</option>
+                                <option class="c" value=""> Workshop on Wordpress</option>
+                                <option class="c" value=""> Workshop on Google Cloud</option>
+                                <option class="c" value=""> Workshop on Machine Learning</option>
+                                <option class="c" value=""> American Football Competition</option>
+                            </select><br>
+                            
+                        </td>
+                    </tr>
+                </table>
+                <div class="btn">Submit</div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
